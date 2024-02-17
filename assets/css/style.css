@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #1f2326;
+}
+
+.bg {
+  background-color: #2e4159;
+}
+header {
+  background-image: url(../img/superhero\ isometric.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 260px;
+}
+
+span {
+  font-family: "Fredoka", sans-serif;
+  font-size: 35px;
+  color: #fff;
+}
+
+.icon {
+  width: 50px;
+}
+.formHero {
+  margin-left: 60vh;
+  margin-top: 10vh;
+}
+
+.redHero {
+  width: 100%;
+}
+
+.card-1 {
+  background-color: #f2f2f2;
+  width: 500px;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+#errorId {
+  font-style: italic;
+  color: red;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.cardHero {
+  background-color: #88a0bf;
+  width: auto;
+  height: 300px;
+  padding: 10vh;
+  margin-bottom: 5vh;
+}
+
+.form-text {
+  font-size: 15px;
+}
+
+footer {
+  background-color: #2e4159;
+  padding: 2vh;
+  font-size: 12px;
+}
+
+h5 {
+  font-family: "Fredoka", sans-serif;
+}
+
+@media screen and (max-width: 1440px) {
+  header {
+    padding: 100px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  header {
+    padding: 100px;
+  }
+
+  .none {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <title>SuperHero</title>
+  </head>
+  <body>
+    <nav class="navbar bg border-bottom border-body">
+      <div class="container mx-5">
+        <div class="row d-flex">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./assets/img/sh2.jpg"
+              alt="Bootstrap"
+              class="icon col"
+            /><span class="mx-3">SuperHero</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+    
+<header>
+<div class="row col">
+  <div class="col-sm-8 mb-3 mb-sm-0 none"></div>
+  <div class="col-sm-4 col">
+    <div class="card-1">
+      <div class="card-body">
+        <div class="">
+        <h1 class="fs-2">Encuentra tu SuperHero</h1>
+        <label for="superHero" class="form-label"
+          >Ingresa el numero del SuperHero a buscar</label
+        >
+        <p id="errorId" class="g-0"></p>
+        <input
+          type="search"
+          id="inputsearch"
+          class="form-control g-0"
+          aria-describedby="searchHelpBlock"
+        />
+        <div id="searchHelpBlock" class="form-text mt-3">
+          El SuperHero debe encontrarse entre los numeros 1-732
+        </div>
+        <div>
+          <button id="button" type="submit" class="btn btn-outline-secondary mt-3">
+            Buscar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</header>
+
+<div class="scroll">
+<div class="row g-0 m-5" id="collapseExample" style="display: none">
+    <div class="col-md-8 col-lg">
+        <h3 class="nameHero fs-1 fw-bold">Hero name</h3>
+        <img id="imageHero"
+              src="https://www.superherodb.com/pictures2/portraits/10/100/10060.jpg"
+              alt="heroImage" class="img rounded mt-4" style="max-width: 380px;">
+    </div>
+    
+    <div class="col col-md-8 my-5 col-lg">
+      <div class="card-body">
+        <h5>Conexiones :</h5>
+        <p class="connections">NA</p>
+        <h5>Publicado :</h5>
+        <p class="publisher">NA</p>
+        <h5>Ocupación : </h5>
+        <p class="occupation">NA</p>
+        <h5>Primera aparición : </h5>
+        <p class="first">NA</p>
+        <h5>Peso : </h5>
+        <p class="height">NA</p>
+        <h5>Altura : </h5>
+        <p class="weight">NA</p>
+        <h5>Alianzas : </h5>
+        <p class="aliases">NA</p>           
+      </div>
+    </div>
+
+    <div class="col-md-8 my-5 col-lg">
+          <section class="chart">
+          <div
+            id="chartContainer"
+            style="height: 400px; width: 100%"
+            class="col-sm-12"
+          ></div>
+        </section>
+        </div>
+
+</div>
+</div>
+
+<footer><p class="footer text-center text-white">© 2024 Viviana Elgueta || Image by macrovector</p></footer>
+    
+<script src="./assets/js/main.js"></script>
+<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+<script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
